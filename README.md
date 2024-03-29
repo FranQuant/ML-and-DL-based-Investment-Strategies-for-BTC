@@ -1,1 +1,34 @@
-The core topic of the paper is concerned with the prediction of short-term market direction movement for bitcoin spot price exploring traditional statistics, machine learning and deep learning methods applied to time series data. We consider this a critical step as it forms the core of an algorithmic trading strategy that could be then deployed in real-time on the cloud. Here, the basic idea for modeling future market direction of a single asset, is based on predicting bitcoin's sign of future returns and transforming a sequence; in this case, time series-data, into a matrix structure where we have features and labels. We select the 25 most important features with SelectKBest as we include technical analysis indicators and on-chain data metrics as features to the mix for our supervised learning algorithms. We let them "learn" about the relationships between features and labels data from a simple classification problem approach. Finally, based on the premise "that a process of directional price changes is predictable if the accuracy of the predictions is significantly higher than 50%", we train and back-test a strategy in bitcoin based on our algorithms for directional (long/short) trading and compare the different models strategies perfomances' numerically and visually.
+# Machine Learning and Deep Learning Based Investment Strategies for Bitcoin
+
+This repository contains a series of explorations and methodologies employing Machine Learning (ML) and Deep Learning (DL) to devise investment strategies for Bitcoin (BTC). Using technical trading indicators and on-chain data analysis, these strategies aim to predict asset movements and optimize trading decisions.
+
+A thorough exploration of the burgeoning field of on-chain data analytics forms the bedrock of this project. The author' s work is characterized by a meticulous data preparation process, expert feature engineering, and the deployment of diverse algorithmic strategies aimed at binary classification problems in the volatile cryptocurrency market. This repository documents a robust analytical journey, offering insights into the market microstructure and predictive modeling nuances that underpin the complexities of Bitcoin trading.
+
+## Repository Contents
+
+- `Data_Bitcoin`: Datasets and preprocessing scripts for Bitcoin price data and on-chain metrics.
+- `Digital Assets Map.PDF`: A comprehensive guide to the digital assets landscape.
+- `Machine Learning & ...`: Jupyter notebooks detailing ML models and their application to Bitcoin data.
+- `Pyramid on chain dat...`: Analysis of on-chain data to understand market dynamics.
+
+Each folder and file is meticulously structured to guide you through the project's progression from data acquisition to model development and evaluation.
+
+## Cloning the Repository
+
+To clone this repository and explore the investment strategies developed, use the following command in your terminal:
+
+```bash
+git clone https://github.com/FranQuant/ML-and-DL-based-Investment-Strategies-for-BTC.git
+```
+
+Ensure you have the required libraries installed by following the setup instructions provided within the repository.
+
+## How to Contribute
+Your insights and improvements are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is open-sourced under the MIT License. See the [LICENSE.md](LICENSE) file for more details.
+
+## Educational Purpose Disclaimer
+The analyses and strategies outlined in this repository are for educational purposes and should not be construed as financial advice. They are shared to foster innovation and collaborative development within the crypto trading community.
