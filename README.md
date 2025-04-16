@@ -1,5 +1,7 @@
 ## Machine Learning and Deep Learning Based Investment Strategies for Bitcoin
 
+![Pyramid On chain Analysis](Data_Bitcoin/Pyramid_n_chain_data_analysis.png.png)
+
 This repository contains a series of explorations and methodologies employing Machine Learning (ML) and Deep Learning (DL) to devise investment strategies for Bitcoin (BTC). Using technical trading indicators and on-chain data analysis, these strategies aim to predict asset movements and optimize trading decisions.
 
 A thorough exploration of the burgeoning field of on-chain data analytics forms the bedrock of this project. The author' s work is characterized by a meticulous data preparation process, expert feature engineering, and the deployment of diverse algorithmic strategies aimed at binary classification problems in the volatile cryptocurrency market. This repository documents a robust analytical journey, offering insights into the market microstructure and predictive modeling nuances that underpin the complexities of Bitcoin trading.
